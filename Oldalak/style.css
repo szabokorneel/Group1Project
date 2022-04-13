@@ -3,5 +3,9 @@ body{
 }
 li {
   font-variant: normal;
+  list-style: none;
   
+}
+h5{
+  font-weight: normal;
 }
