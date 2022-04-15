@@ -1,0 +1,12 @@
+body {
+  color: black;
+}
+li {
+  font-variant: normal;
+  list-style: none;
+}
+list-style-image {
+  border-radius: 50%;
+  border: width 50%;
+}
+
