@@ -7,5 +7,4 @@ Weboldalunk egy ételfutár szolgálatot mutat be, mely egy Világszerte ismert 
 
 ### Felosztás: 
 tortenetunk.html,menuk.html-Alíz
-style.css,kapcsolat,html-Bálint
-fooldal.html,hetiajanlat.html-Kornél
+style.css,kapcsolat,html-Bálint  index.html,hetiajanlat.html-Kornél
