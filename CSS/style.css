@@ -1,8 +1,9 @@
 body {
   color: black;
-  background-image: url(/Képek/hatter2.png);
-  background-attachment: fixed;
-  background-size: auto;
+ background-image: url(/Képek/86280.jpg);
+ background-position: center;
+ background-size: cover;
+ background-repeat: repeat;
 }
 li {
   font-variant: normal;
@@ -15,5 +16,4 @@ list-style-image {
 .banner{
   background-image: url(/Képek/big-sandwich-hamburger-burger-with-beef-red-onion-tomato-fried-bacon.jpg);
 }
-
 
