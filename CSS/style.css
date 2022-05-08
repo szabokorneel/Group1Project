@@ -16,4 +16,6 @@ list-style-image {
 .banner{
   background-image: url(/Képek/big-sandwich-hamburger-burger-with-beef-red-onion-tomato-fried-bacon.jpg);
 }
-
+a{
+  text-decoration: none;
+}
