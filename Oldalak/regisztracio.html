@@ -10,7 +10,7 @@
 </head>
 <body>
   <div class="container">
-    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -24,7 +24,7 @@
                 <a class="nav-link" aria-current="page" href="index.html">Főoldal</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="regisztracio.html">Regisztráció</a>
+                <a class="nav-link active" aria-current="page" href="regisztracio.html">Rendelés</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" aria-current="page" href="hetiajanlat.html">Heti ajánlatunk</a>
@@ -43,7 +43,7 @@
         </div>
       </nav>
       
-        <form class="row">
+        <form class="row" action="belepes.html">
           <div class="mb-3 col-md-6 ">
             <label for="exampleFormControlInput" class="form-label">Keresztnév</label>
             <input type="text" class="form-control" id="exampleFormControlInput" placeholder="Ádám">
@@ -71,23 +71,24 @@
         <div class="mb-3 col-md-4">
           <label for="validationServer03" class="form-label">Jelszó</label>
           <input type="text" class="form-control is-invalid" id="validationServer03" aria-describedby="validationServer03Feedback" required>
-          <div id="validationServer03Feedback" class="invalid-feedback">A jelszóban szerepeljen kis- és nagybetű, szám!</div>
+          <div id="validationServer03Feedback" class="invalid-feedback">A jelszóban szerepeljen kis- és nagybetű, szám!</div></div>
         <div class="mb-3 col-md-4">
           <label for="validationServer03" class="form-label">Jelszó megerősítése</label>
           <input type="text" class="form-control is-invalid" id="validationServer04" aria-describedby="validationServer04Feedback" required>
-          <div id="validationServer04Feedback" class="invalid-feedback">A jelszónak eggyezni-e kell!</div>  
+          <div id="validationServer04Feedback" class="invalid-feedback">A jelszónak eggyezni-e kell!</div>  </div>
         
           <div class="form-check mb-3 col-12">
             <input type="checkbox" class="form-check-input" id="validationFormCheck1" required>
-            <label class="form-check-label" for="validationFormCheck1">Nem vagyok robot!</label>              
+            <label class="form-check-label" for="validationFormCheck1">Nem vagyok robot!</label> </div>             
             <div class="col-12">
               <button type="submit" class="btn btn-primary">Regisztráció</button>
+              
             </div>
         </form>
 
     </div>
 
-    <footer class="bg-light text-center text-lg-start" style="border-top: solid black 2px">
+    <footer class="bg-light text-center text-lg-start fixed-bottom" style="border-top: solid black 2px">
       <div class="text-center p-3 bg-light">
         ©2022 Copyright: Freshfood Original
       </div>
